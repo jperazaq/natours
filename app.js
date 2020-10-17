@@ -49,7 +49,12 @@ app.post('/api/v1/tours', (req, res) => {
   );
 });
 
-const port = 3030;
+process.on('SIGINT', function () {
+  socket.close();
+  process.exit();
+});
+
+const port = 4040;
 app.listen(port, () => {
   console.log(`Running on port ${port}`);
 });

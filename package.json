@@ -1,19 +1,24 @@
 {
-  "name": "natours",
+  "name": "starter",
   "version": "1.0.0",
-  "description": "Learning Node and Mongo",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Julio Peraza",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jperazaq/natours.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-<<<<<<< HEAD
-    "express": "^4.17.1",
-    "nodemon": "^2.0.5"
-=======
-    "express": "^4.17.1"
->>>>>>> 329c8a27b0fe4cf542d0fe4350891064bd97fab2
-  }
+  "bugs": {
+    "url": "https://github.com/jperazaq/natours/issues"
+  },
+  "homepage": "https://github.com/jperazaq/natours#readme"
 }

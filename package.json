@@ -9,7 +9,11 @@
   "author": "Julio Peraza",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.1",
     "nodemon": "^2.0.5"
+=======
+    "express": "^4.17.1"
+>>>>>>> 329c8a27b0fe4cf542d0fe4350891064bd97fab2
   }
 }
